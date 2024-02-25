@@ -1,4 +1,4 @@
-package org.example.websitesellingphonesbackend.controllers.admin;
+package org.example.websitesellingphonesbackend.controllers;
 
 import org.example.websitesellingphonesbackend.entities.User;
 import org.example.websitesellingphonesbackend.service.UserService;
@@ -14,7 +14,6 @@ import java.util.Map;
 //@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/v1/")
-@Controller
 public class UserController {
     private final UserService userService;
 
